@@ -1,0 +1,478 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+	background: #E3B30D;
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+line-height: 1.5em;
+}
+
+@media only screen and (min-width: 768px) {
+    body
+}
+
+@media only screen and (max-width: 600px) {
+    body 
+}
+
+.p{
+	size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+	font-family: 'Pacifico', cursive;
+}
+
+/*-----Navbar-----*/
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .2s;
+}
+
+@media only screen and (max-width: 768px) {
+   nav{
+   	overflow: visible;
+   }
+}
+
+@media only screen and (max-width: 600px){
+	.nav{
+		overflow: visible;
+	}
+}
+
+nav .logo{
+	padding: 18px 18px;
+	height: 70px;
+	float: left;
+	font-size: 30px;
+	font-family: 'Kaushan Script', cursive;
+	color: #ffffff; 
+	transition: .2s;
+}
+
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .2s;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+nav ul li a:focus{
+	outline: none;
+}
+
+nav ul li a.active{
+	background: #1caf97;
+	color: #fff;
+	border-radius: 8px;
+}
+
+a:hover {
+    background-color: #7500FF;
+}
+
+
+/*-----Top of page Banners-----*/
+.responsive {
+    width: 100%;
+    height: 500px;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+   .responsive
+}
+
+@media only screen and (max-width: 600px){
+	.responsive
+}
+
+/*-----Video-----*/
+video{
+	width: 75%;
+	height: 600px;
+	display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+   video
+}
+
+@media only screen and (max-width: 600px){
+	video
+}
+
+#wrap{
+	width: 100%;
+	display: inline-block;
+}
+
+
+.left{
+	width: 750px;
+	float: left;
+	margin-bottom: 100px;
+}
+
+.right{
+	width: 750px;
+	float: right;
+	margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  #wrap .left .right
+}
+
+@media only screen and (max-width: 600px){
+	#wrap .left .right
+}
+
+
+
+
+/*-----Social Media bottom Tab-----*/
+
+.social-media{;
+text-align: center;
+width: 100%;
+height: 100px;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+   .social-media
+}
+
+@media only screen and (max-width: 600px){
+	.social-media
+}
+
+h1{
+	font-weight: lighter;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+ 
+.media li{
+	list-style: none;
+	margin: 10px 20px;
+	display: inline-block;
+    margin: 0 auto;
+	font-size: 50px;
+	padding: 20px;
+	color: #fff;
+}
+
+.media li:hover{
+	transition: .2s;
+	color: #FB9042;
+}
+
+/*-----Band Page -----*/
+
+
+article.content{
+	margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.content{
+	margin-top: 80px;
+}
+
+.content p{
+	width: 100%;
+	margin: 30px auto;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+article .content p
+}
+
+@media only screen and (max-width: 600px){
+	article .content p
+}
+
+.band-cont{
+	display: inline-block;
+	margin-left: 70px;
+	float: left;
+}
+
+.band-cont #band-imgs{
+	width: 400px;
+	border-radius: 8px;
+
+}
+.band-cont p{
+	width: 350px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+#LBHJ{
+	margin-left: 470px;
+	margin-right: 180px;
+}
+
+@media only screen and (max-width: 768px) {
+	.band-cont #band-imgs p #LBHJ
+}
+
+@media only screen and (max-width: 600px){
+	.band-cont #band-imgs p #LBHJ
+}
+
+
+/*-----Albums page-----*/
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style-type: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.description {
+    padding: 15px;
+    text-align: center;
+}
+
+.album-imgs{
+	width: 350px;
+	height: 350px;
+	margin-left: 20px;
+}
+
+#song-title{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+}
+
+#song-year{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	size: 25px;
+}
+
+li{
+	font-family: 'Roboto', sans-serif;
+	size:20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.dropdown .dropdown-content
+}
+
+@media only screen and (max-width: 600px){
+	.dropdown .dropdown-content
+}
+
+/*-----Upcoming tour dates-----*/
+
+
+.side-text{
+	float: left;
+	width: 50%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	
+}
+
+.tour-heading{
+	font-size: 35px;
+	font-family: 'Hind Madurai', sans-serif;
+	color: #D80E04;
+}
+.tour-dates{
+	font-family:'Hind Madurai', sans-serif;
+	font-size: 20px;
+	color: #6504D8;
+	text-decoration: none;
+	line-height: 45px;
+	list-style-type: none;
+
+}
+
+.date{
+	color: #D80E04;
+}
+
+.location{
+	color: #0A8296;
+}
+
+@media only screen and (max-width: 768px) {
+	.side-text
+}
+
+@media only screen and (max-width: 600px){
+	.side-text
+}
+
+
+/*-----Contact form-----*/
+
+.container-page{
+	width: 100%;
+	height: 600px;
+}
+.contact-form{
+	float: right;
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	margin: 25px;
+	margin-top: 70px;
+	background: #FFDE64;
+
+}
+
+#form{
+	text-align: center;
+	z-index: 1;
+}
+
+#header{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	transform: none;
+}
+
+#sub-header{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	transform: none;
+
+}
+
+hr{
+	width: 100%;
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-width: 2px;
+}
+
+form .registration-form{
+	width: 100%;
+	display: inline;
+}
+
+input[type=text]{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	width: 95%;
+	height: 35px;
+	margin: 5px;
+
+}
+
+textarea[type=text]{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	width: 100%;
+	height: 85px;
+	margin: 8px;
+}
+
+form button{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	outline: 0;
+	padding: 15px;
+	width: 90px;
+	height: 90px;
+	background: #7EF944;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	position: center;
+}
+
+form button:hover{
+	background: #10BD0A;
+	color: #000000;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.container-page .contact-form #form
+}
+
+@media only screen and (max-width: 600px){
+	.container-page .contact-form #form
+}
+
+/*-----Bottom of page footer-----*/
+
+@media only screen and (max-width: 768px) {
+	footer
+}
+
+@media only screen and (max-width: 600px){
+	footer
+}
+
+/* The Fonts I used or intended to use through out the project
+font-family: 'Roboto', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Hind Madurai', sans-serif;
+*/
