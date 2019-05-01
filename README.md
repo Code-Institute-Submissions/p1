@@ -36,7 +36,6 @@ This website uses:
 - HTML
 - CSS
 - Javascript
-- Jquery
 
   
 
@@ -53,8 +52,42 @@ To get code up and running open it up in sublime text, then right click on the s
 
 ### Media
 The photos used in this site were obtained from :
+The photos used in this site were obtained from :
 - Google Images
 - Wikipedia
+- Rolling_Stones.jpg (https://www.uncut.co.uk/news/bill-wyman-on-joining-the-rolling-stones-again-i-ve-got-better-things-to-be-doing-now-23981)
+- stone.jpg (https://www.google.co.uk/search?biw=1536&bih=754&tbm=isch&sa=1&ei=YZg_XMCHINKi1fAPnOKn0Ag&q=rolling+stones+then&oq=rolling+stones+then&gs_l=img.3..0l2.86881.87882..88322...0.0..0.63.224.4......1....1..gws-wiz-img.......0i67.OTajRVMDDow#imgrc=-KVrqpZ8HzgbSM:)
+- tounge-logo (https://www.pinterest.co.uk/pin/299137600243751873/)
+- Ron_Wood.jpg (https://www.biography.com/people/ron-wood-20874863)
+- Mick_Jagger.jpg (https://www.biography.com/people/mick-jagger-9351966)
+- Keith_Richards.jpg (https://www.theguardian.com/music/2010/oct/18/keith-richards-keef-autobiography)
+- Ian_Stewart.jpg (https://www.google.co.uk/search?biw=1536&bih=754&tbm=isch&sa=1&ei=XZo_XJSJOf2c1fAPsPiLqA8&q=Ian+Stewart&oq=Ian+Stewart&gs_l=img.3..0l10.49301.52103..52608...0.0..0.66.630.11......1....1..gws-wiz-img.......0i67j0i10.inoWoMOnVWE#imgdii=j4XUXHojh6unUM:&imgrc=Mqyzf03wqaFkgM:)
+- concert.png (https://federicodecalifornia.files.wordpress.com/2010/01/gd8172462los-angeles-ca-198-3650.jpg)
+- Charlie_Watts.jpg (https://www.biography.com/people/charlie-watts-454722)
+- Brian_Jones.jpg (http://ultimateclassicrock.com/five-reasons-we-love-brian-jones-of-the-rolling-stones/)
+- Bill_Wyman.jpg (https://www.biography.com/people/bill-wyman-16242032)
+- 1-album.jpg (https://en.wikipedia.org/wiki/The_Rolling_Stones_(album))
+- 2-album.jpg (https://en.wikipedia.org/wiki/The_Rolling_Stones_No._2)
+- 3-album.jpg (https://en.wikipedia.org/wiki/Aftermath_(The_Rolling_Stones_album))
+- 4-album.jpg (https://en.wikipedia.org/wiki/Between_the_Buttons)
+- 4.5-album.jpg (https://en.wikipedia.org/wiki/Their_Satanic_Majesties_Request)
+- 5-album.jpg (https://en.wikipedia.org/wiki/Beggars_Banquet)
+- 6-album.jpg (https://en.wikipedia.org/wiki/Let_It_Bleed)
+- 7-album.jpg (https://en.wikipedia.org/wiki/Sticky_Fingers)
+- 8-album.jpg (https://en.wikipedia.org/wiki/Exile_on_Main_St.)
+- 9-album.jpg (https://en.wikipedia.org/wiki/Goats_Head_Soup)
+- 10-album.jpg (https://en.wikipedia.org/wiki/It%27s_Only_Rock_%27n_Roll)
+- 11-album.jpg (https://en.wikipedia.org/wiki/Black_and_Blue)
+- 12-album.jpg (https://en.wikipedia.org/wiki/Some_Girls)
+- 13-album.jpg (https://en.wikipedia.org/wiki/Emotional_Rescue)
+- 14-album.jpg (https://en.wikipedia.org/wiki/Tattoo_You)
+- 15-album.jpg (https://en.wikipedia.org/wiki/Undercover_(The_Rolling_Stones_album))
+- 16-album.jpg (https://en.wikipedia.org/wiki/Dirty_Work_(The_Rolling_Stones_album))
+- 17-album.jpg (https://en.wikipedia.org/wiki/Steel_Wheels)
+- 18-album.jpg (https://en.wikipedia.org/wiki/Voodoo_Lounge)
+- 19-album.jpg (https://en.wikipedia.org/wiki/Bridges_to_Babylon)
+- 20-album.jpg (https://en.wikipedia.org/wiki/Bridges_to_Babylon)
+- 21-album.jpg (https://en.wikipedia.org/wiki/Blue_%26_Lonesome_(The_Rolling_Stones_album))
 
 ### Information
 The information used to create this site was from a number of sources
